@@ -7,7 +7,7 @@
 
 body{
 	text-align: center;
-	color: white;
+	color: #fbf8f8;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	width: 100%;
@@ -16,6 +16,9 @@ body{
 	height: 100%;
 	padding-top: 4rem;
 	/*background-image: url("/images/0bedb9c3134e494b97ae76c6f3d5cb26.jpg");*/
+}
+
+.box-main {
 }
 
 .Header_title {
@@ -33,8 +36,8 @@ body{
 }*/
 
 .top-time {
-	background: white;
-	color: orange;
+	background: #fbf8f8;
+	color: #ffbe1e;
 	display: inline-block;
 	width: 80px;
 	padding: 1rem .1rem;
@@ -56,15 +59,20 @@ body{
 	padding: 0;
 }
 
+.first {
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
 .contacto {
-	color: gray;
-	background: white;
+	color: #4f6e8d;
+	background: #fbf8f8;
 	border-radius: 20px;
 	display: block;
 	text-align: center;
 	max-width: 390px;
 	padding: .5rem .3rem;
 	margin: .5rem auto;
+	box-shadow: rgba(19, 18, 18, 0.11) 3px 3px 3px 4px;
 }
 
 .box-image {
@@ -88,7 +96,7 @@ body{
 
 
 .sombra {
-	background: rgba(0, 0, 0, 0.13);
+	background: rgba(23, 21, 21, 0.61);
 	width: 100%;
 	z-index: 1;
 	position: absolute;
