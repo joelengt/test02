@@ -1,0 +1,30 @@
+{
+  "name": "astrum",
+  "version": "0.4.5",
+  "description": "app mobile and desktop, to astrum and coder",
+  "main": "index.js",
+  "keywords": [
+    "astrum"
+  ],
+  "author": "coder",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.14.1",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.5",
+    "morgan": "^1.7.0",
+    "multer": "^0.1.8",
+    "nodemailer": "^2.6.4",
+    "nodemailer-smtp-transport": "^2.7.2",
+    "serve-favicon": "^2.3.0"
+  },
+  "scripts": {
+    "test": "tape ./test/index.js",
+    "build-css": "stylus -u nib -w ./lib/style.styl -o ./public/css/style.css",
+    "build-js": "browserify -t [ babelify --presets [ es2015 ] ] lib/index.js > ./public/js/main.js",
+    "start": "node index.js"
+  }
+}
