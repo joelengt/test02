@@ -1,6 +1,6 @@
 var anioFinal = 2016 //Variables de finalizacion
-var mesFinal = 10
-var diaFinal = 29
+var mesFinal = 12
+var diaFinal = 25
 
 mesFinal -= 1
 function faltan() {
